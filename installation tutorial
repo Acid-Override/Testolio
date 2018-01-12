@@ -64,3 +64,6 @@ a) install using snap: sudo snap install ubports-installer --devmode
 b) install using deb: https://github.com/ubports/ubports-installer/releases/download/0.1.9-beta/ubports-installer_0.1.9-beta_amd64.deb
 c) install using CPT: https://ubports.com/r/downloads-cpt-linux
 d) install using MDT: https://github.com/MariusQuabeck/magic-device-tool
+
+
+Will Atwood test addition (delete me)
