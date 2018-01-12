@@ -1,0 +1,29 @@
+Recommended installation requierements: 
+
+PC OS: ubuntu Xenial 16.04 LTS
+good USB cable that will not be connected to HUB
+Ubports installer: snap, deb, CPT or MDT, see bellow
+Core devices N5, OPO, FP2
+battery device is fully charged
+
+FIRST STEP: 
+check out the device on fastboot mode has the bootloader UNLOCKED
+
+HOWTO:
+ad N5/ press buttons "volume + - and power button" to open fastboot mode screen bootloader on the device
+check last line on the device: should say: LOCK STATE - unlocked
+if not, install ADB tools on your PC
+
+ad OPO/
+
+ad FP2/
+
+HOWTO INSTALL ADB TOOLS:
+
+
+
+Use the UBports installer to flash Ubuntu Touch to your Linux device
+a) install using snap: sudo snap install ubports-installer --devmode
+b) install using deb: https://github.com/ubports/ubports-installer/releases/download/0.1.9-beta/ubports-installer_0.1.9-beta_amd64.deb
+c) install using CPT: https://ubports.com/r/downloads-cpt-linux
+d) install using MDT: https://github.com/MariusQuabeck/magic-device-tool
