@@ -1,13 +1,16 @@
 UBports FAQ documentation for https://ubports.com/page/frequently-asked-questions
 
-
-Introduction
-    1.1 What is Ubuntu Touch?
-    1.2 Who is developing Ubuntu Touch?
-    1.3 What sets Ubuntu Touch apart from Apple and Android?  
-    1.4 What is UBports?
-    1.5 What is the UBports Foundation?
-    
+```
+/
+|- FAQ
+|   |- Introduction
+|   |   |-    1.1 What is Ubuntu Touch?
+|   |   |-    1.2 Who is developing Ubuntu Touch?
+|   |   |-    1.3 What sets Ubuntu Touch apart from Apple and Android?  
+|   |   |-    1.4 What is UBports?
+|   |   |-    1.5 What is the UBports Foundation?
+\
+```
     
 16.04  ... Here we come!! 
     2.1 Why won't all Ubuntu Touch Canonical devices get an upgrade to the new 16.04 base?
