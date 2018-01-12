@@ -1,4 +1,4 @@
-UBports FAQ documentation for https://ubports.com/page/frequently-asked-questions
+# UBports FAQ documentation for https://ubports.com/page/frequently-asked-questions
 
 ```
 /
@@ -85,5 +85,18 @@ UBports FAQ documentation for https://ubports.com/page/frequently-asked-question
 \
 ```
     
+## Introduction
+### 1.1 What is Ubuntu Touch? (What is it to someone who doesn't know what Ubuntu is?)
+
+    Ubuntu Touch is the touch-friendly mobile version of the popular Ubuntu operating system. Originally designed and developed by Canonical Ltd, the project now resides with the UBports Foundation.  
+
+
+    The Ubuntu operating system, upon which Ubuntu Touch is based, is one of the most popular Linux distributions in the world. UBports is the new home for Ubuntu Touch and will continue with Canonical's original mission of Convergence — the bold idea of bringing mobile computing to the desktop and desktop computing to mobile which will now be developed by the UBports Foundation.
+
+
+    The goal of Convergence will be to seamlessly blend mobile and desktop environments into a single unified experience. UBports Foundation is excited to continue development of Ubuntu Touch and to bring Convergence to life.
+
+
+
     
     
