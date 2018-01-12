@@ -80,7 +80,7 @@ UBports FAQ documentation for https://ubports.com/page/frequently-asked-question
 |   |   |-    [***] I am interested in learning programming apps for Ubuntu Touch, what is the best language to start with and are there any courses?  A: miguel's course and C++ I think...
 |   |   |-    [***] PERHAPS A QUESTION ABOUT TELEGRAM, MATRIX, ETC?      
 |   |    
-|   |-nOther
+|   |- Other
 |   |   |-    How do you pronounce UBports? How do you say Ubuntu?    
 \
 ```
