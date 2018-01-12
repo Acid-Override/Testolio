@@ -26,7 +26,7 @@ brainstorming for structural concepts
 directory structure
 
 --------
-
+```
 /
 |- Install
 |   |- Fairphone 2 - FP2
@@ -47,7 +47,7 @@ directory structure
 |- Applications
 |- Initial Setup
 \- README.md
-
+```
 I think these areas will dynamically grow once we have a github area to play around with.
 
 document structure
