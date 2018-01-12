@@ -50,4 +50,4 @@ Since UBports documentation (docs.ubports.com) already uses ReadTheDocs to organ
 
 *[...]*
 
-UBFR FAQ area
+
