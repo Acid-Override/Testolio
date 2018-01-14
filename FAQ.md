@@ -85,7 +85,7 @@
 \
 ```
     
-## Introduction
+## 1.0 Introduction
 ### 1.1 What is Ubuntu Touch? (What is it to someone who doesn't know what Ubuntu is?)
 
 Ubuntu Touch is the touch-friendly mobile version of the popular Ubuntu operating system. Originally designed and developed by Canonical Ltd, the project now resides with the UBports Foundation.  
@@ -130,7 +130,7 @@ Our goals:
 - Actively collaborate on the definition of the roadmaps of new versions, features and their implementation.
 
 
-## 16.04 ... Here we come!!
+## 2.0 {16.04} ... Here we come!!
 
 ### 2.1 Why won't all Canonical devices get an upgrade to the new 16.04 base?      
           
@@ -196,6 +196,399 @@ We're working as fast as we can to get the images out there but currently do not
 
 
 With the success of Halium, our release time frame is expected to be significantly reduced and we will be able to push out new images much quicker. The Halium project will unify the Hardware Abstraction Layer and create a bridge between Android hardware and the Ubuntu Touch operating system. With a successful Halium project, UBports team will spend less time on Android device drivers and more time on Ubuntu Touch. That is what we like to call a Win–Win.
+
+
+## 3.0 General Questions:
+
+### 3.1 Hello there. I am new to UT and just looking around, trying to understand the system and how I might be able to help...
+
+   We need you!  UBports is a welcoming community of like minded individuals interested in promoting Ubuntu Touch. If you are interested in Ubuntu Touch we would love to have you. Please check out https://ubports.com/page/get-involved to find out how.
+
+
+### 3.2 Does Ubuntu Touch work in my country?
+
+   Ubuntu Touch works everywhere: Underwater, In space, or even in Canada. Your connectivity will depend on the device hardware and networks available in those locations though. Please see https://ubports.com/page/devices for list of devices and what frequencies they use.
+
+
+### 3.3 Which device is the best to give Ubuntu Touch a try?
+
+   The Nexus 5, Fairphone 2 and Oneplus One offer the best experience and are used by many people as their 'Daily Drivers'.
+
+
+### 3.4 What are the Core Devices?
+
+   Core Devices are the Devices that will recieve all the new features, critical security-updates and bug-fixes from UBports. These devices will soon be rebased on Ubuntu 16.04 LTS. Until then, the existing legacy image (based on 15.04) can be installed.
+
+   One Plus One
+
+   Fairphone 2
+
+   Nexus 5
+
+   Optimus L90
+
+   BQ M10 HD
+
+   BQ M10 FHD
+
+
+   To find our most curent and up to date list of devices, please see here:
+
+   https://devices.ubports.com/#/
+
+
+### 3.5 Will you build on the foundation provided by Canonical?
+
+   Yes! UBports will take over all devices and will continue delivering new features for the core devices. The older legacy devices will be maintained on life support and the actual work will happen in the non-legacy branch, but we will still provide critical security-updates and merge bug-fixes from the community. This way you will still be able to use your phone with Ubuntu Touch if you own one of the official devices, but the cool and shiny new features will probably only land in the non-legacy branch.
+
+
+   Due to the limitations of the closed Android device trees on the official BQ and Meizu products, we have no choice but to relegate them to the legacy branch. Without access to the device tree, this prevents us from fixing bugs in hardware enablement or adding new features dependent on the kernel.
+
+
+### 3.6 Does UBports guarantee support for Ubuntu Touch?
+
+   Like everyone else, although we cannot be held legally liable for any problems that happen with the devices, we will always work diligently to resolve any issues as quickly as possible, should they arise. Just like you, we are passionate about every device working as smoothly as possible and we look forward to you helping us accomplish this.
+
+
+   (### can we offer a paid support option, similar to pfSense, to provide corporate level support. We can fly Dalton all over the world :)
+
+
+### 3.7 Why does Ubuntu Touch use the Android kernel?
+
+   (I don't think this is true anymore.. double check)  We rely on Android kernel and drivers to make the phone work. This is the unfortunate reality of Android hardware.
+
+
+### 3.8 What license does Ubuntu Touch use?
+
+   Ubuntu operates under the GNU General Public License (GPL) and all of the application software installed by default is free software. In addition, Ubuntu installs some hardware drivers that are available only in binary format, but such packages are clearly marked in the restricted component.
+
+                
+### 3.9 How can I access the 3G/4G network on the device?
+
+   It should just work, if for some reason it doesn't verify that your mobile broadband provider is part of /usr/share/mobile-broadband-provider-info/serviceproviders.xml
+
+
+### 3.10 With all this talk of Librem 5, Purism's new phone, can I install Ubuntu Touch on it?
+
+   Great question. We are excited about the Librem 5 phone and think it might be a great new Ubuntu Touch device. Time will tell what the final device will look like and we will analyze its capabilities as a future Ubuntu Touch device once the details are finalized.
+
+
+### 3.11 Which applications run on Ubuntu Touch?
+
+   There are many applications in the open store http://open.uappexplorer.com that run on Ubuntu Touch. Some popular applications include: Telegram messenger, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav. However, many of the apps that you know on Android/iOS might not exist yet. There is a project called Anbox that is working on allowing android apps to be run on Ubuntu Touch.
+
+### 3.12 Where can I find apps for Ubuntu Touch?
+
+   In the OpenStore app. The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
+
+## 4. OS Development
+
+### 4.1 Where do I report Ubuntu Touch bugs?
+
+   Please start by contacting us in our Telegram SuperGroup. This can be found at: (https://t.me/ubports)
+
+
+   https://github.com/ubports/ubuntu-touch/issues You may need to search your device 'code name' such as 'bacon' or 'mako'. You also need a github acccount.
+
+
+### 4.2 By far the thing that excites me the most about Ubuntu Touch is the prospect of Desktop mode, could you explain it in a bit more detail?
+
+   (Insert exciting answer here)
+
+
+   This new mode called Desktop mode, is what makes Ubuntu Touch so exciting and why the project has gained enormous support. This concept, following in the philosophy of Convergence, allows a mobile device to automatically transform into a desktop computer when attached to an external screen. Paired with a bluetooh keyboard and mouse, the phone will have all the capability of Ubuntu for desktop, but will be running from your mobile device. The possibilities are groundbreaking and we are excited to continue developing this feature and look forward to expanding the possibilities.
+
+
+   The desktop shell (Unity 7) will be re-implemented in the same codebase as Ubuntu Touch (Unity 8, so that there will be one "Unity" that can change the way it looks and behaves depending on the kind of device it is running on. For app developers, the platform will be the same, the APIs will be the same, they won't need to maintain separate versions of their app.
+
+
+### 4.3 Will Ubuntu Touch have a desktop interface if plugged via HDMI cable or Slimport?
+
+   Yes, if your phone is capable you will be able to run Ubuntu Touch on it's touch screen, but then dock it to an external screen, and be presented with the Desktop shell. This is the power of Convergence which the UBports team is excited to bring to phone, tablet, desktop and TV.
+
+
+### 4.4 Is it possible to dual-boot with Android? (e.g. Multirom)
+
+   No, and why would you want too?  But, because answering questions is fun in the FAQ section, we haven’t played with MultiROM in over a year and it would be too much work to fix it right now. So, if you have MultiROM and you want Ubuntu Touch, you will have to choose one OS. That *may* change with Halium project, but that’s not carved in stone yet and we won’t make any promises.
+
+ 
+### 4.5 What are the minimum hardware requirements (processor, ram, storage, etc)?
+
+   Currently on the 15.04 codebase, the minimum specs for the Ubuntu Touch operating system are:
+
+   1 Ghz dual core Cortext A9
+
+   1 GB ram
+
+   OpenGL/ES supported graphics
+
+   8 GB storage
+
+
+### 4.6 How will Ubuntu Touch work with the new SNAP packages?
+
+   Currently not supported but we'll never give up the dream of functional snaps and convergence.
+
+
+   A snap is a self-contained package of libraries and runtimes that provide all the necessary ingredients to allow an application to run. This allow the snap to be confined from the OS and other apps through security mechanisms but still allow communication with other snaps according to policies defined by the user. In addition, users have the ability to upgrade/downgrade applicatinos without affecting the core OS or any other applications. This is game changing for linux as it allows apps to be upgraded and modified worry free since it is possible to easily roll back to a previous state.
+
+
+### 4.7 I am interested in learning programming for Ubuntu Touch, what is the best language to start with and are there any courses?
+
+   A: miguel's course and C++ I think...
+
+   Programming Course Info:
+
+   https://forums.ubports.com/topic/184/ubuntu-touch-programming-course
+
+
+### 4.8 What about push notifications after Canonical will stop their services?
+
+   Canonical did not announce when their push server will go offline, but we expect it to happen end of 2017. Currently only Telegram seems to use the push server. They offered us to continue sending push notifications to a server in our infrastructure, and we are working on the details. Depending on the progress however it could be that push notifications will be unavailable for some time. We know that Telegram notifications are essential and take this very serious, but we also need to make sure that the service is secure and reliable.
+
+
+   UBports is working on upgrading the push servers and we expect to launch the new server towards the end of 2017. At the moment, Telegram is the only app that is utilizing this service. Push notifications are essential and it is a priority to maintain a secure and reliable network.
+
+
+
+### 4.9 Who is developing the core OS functions?
+
+
+   Marius Gripsgard
+
+   Ricardo Mendoza 
+
+   Jan Sprinz
+
+   Florian Leeber
+
+   Dalton Durst
+
+   Ewald Pierre
+
+
+### 4.10 Where can I get information on the "core packages"?
+
+   All of the required packages for the system are found in our metapackage: https://github.com/ubports/ubuntu-touch-meta
+
+
+   The packages we build are also in http://repo.ubports.com/pool/xenial-7.1-caf/main/ if that's the goal
+
+
+### 4.11 What are all the modules Ubuntu Touch is built from and who takes care of them?  (MIR, YUNIT, Core apps, OpenSTORE, ...)
+
+
+### 4.12 Can you offer full disk encryption capabilities?
+
+   We don‘t have a GUI for this yet, but we should have the ability to encrypt the home folder using the terminal similar to how it‘s done on a regular install of Ubuntu.
+
+
+### 4.13 How can one contribute to graphics and UX design?
+
+   There are multiple ways to present and offer them, first you can get hold of us on Telegram or #ubports at Freenode, you can send us your work there.
+
+
+   You can also find information on our Get involved page. https://www.ubports.com/page/get-involved
+
+
+   If you wish to submit new designs via github, you can start an issue and post images of your ideas.
+
+
+### 4.14 How can I create a theme?
+
+   Right now, you‘d do this by creating a UITK style, but we don‘t have terribly much information for this. It‘s possible that changes will come with 16.04, but we‘re not sure yet.
+    
+     
+### 4.15 Why are apps not allowed to run in the background/when the phone is locked?
+
+   This was a design decision made by the developers at Canonical. The goal was to give Ubuntu Touch the longest possible battery life, sacrificing a bit of usability for it. For some apps there exists a special rule called lifecycle exception, and they are allowed to work in the background. For example the music player works with this exception. UBports is working on a concept that will relax these strict rules a bit for future releases.
+
+
+### 4.16 How can I use an SD cards for extra storage?
+
+   → Please let Stefano answer this
+
+
+### 4.17 Have you considered a hotfix release to fix (issue x)?
+
+   Yes, we have considered it. We have decided that we will not offer hotfix releases unless an issue is both a regression and critically damages use of the phone. For example, if the radio on every Nexus 5 broke with a stable update, we would release a hotfix.
+
+
+   Other than that, we want to stick to our 6-8 week schedule of OTAs.
+
+
+### 4.18 What is Ubuntu for Android and how does it work with Ubuntu Touch?
+
+   Ubuntu Touch is the operating system that runs on the bare metal, so to speak, of the phone and is developed and maintained by UBports. Our software is designed to completely wipe off android, except for the bits to control camera, modem, gps, etc, and install a totally new and advaced OS.
+
+
+   Ubuntu for Android is an app created by Canonical for Android devices. The two projects are not related.
+
+
+### 4.19 Will the ARMv6 architecture be supported?
+
+   Ubuntu Touch currently targets the ARMv7 and above Appliaction Processor family (Cortex A8, A9 and above).
+
+
+## 5. Installation & Porting
+
+### 5.1 Where can I chat about and possibly getting help installing Ubuntu Touch?
+
+   We invite you to join our "Newcomers Room' where all of the friendly UBports Welcoming Team are ready to help. This is a special area to not only help with installation questions, but also to introduce yourself and get to know some other community members outside our main Supergroup. We understand that with 1000 members strong, you may not feel comfortable jumping right in, so we created a side area for introductions. If you would like to join the Ubuntu Touch community this is a great place to start.
+
+
+   The UBports Welcoming Team is an excited group of volunteers from all areas of UBports. Join the group to find out more.
+    
+https://ubports.com/page/telegram-welcome
+
+
+
+## 5.2 How do I install Ubuntu Touch on my device? 
+   Answer...mail it to one of the developers... muahahahaha :)
+   (Isn't this what the get-ubuntu-touch page is for?)
+
+   Well that depends on whether you have one of our supported core devices. If you hae a core device, please check out our documentation at docs.ubports.com
+
+## 5.3 Will you port to my device, which is not currently in the core devices or legacy devices list?
+
+   Due to limited time and resources, we are not porting to new devices until the 16.04 rebase is finished.
+
+
+   You can see a list of devices where ports are in the works at https://ubports.com/page/devices — click on any of the links to find out more about the state of the images in question.
+
+
+   If you should want to get involved in porting, this guide (https://wiki.ubports.com/wiki/UBports-Development-Information) might be of interest.
+
+
+## 5.4 How does the Ubuntu Installer work?
+
+To help you get started, please contact our telegram welcome group at: https://ubports.com/page/telegram-welcome
+
+
+   Ubuntu Installer can be found at: https://github.com/ubports/ubports-installer
+
+
+Launch the downloaded AppImage and follow the instructions. Its that easy. Please contact us and let us know how it went! We'd love to hear from you.
+
+
+## 5.5 I've heard about this Magic-Device-Tool, what is it and how does it work?
+
+Ubuntu Touch will now use the Ubuntu Installer instead of the MDT.
+
+The magic-device-tool is a simple and easy way to install Ubuntu Touch on a core device. It uses bash scripts to automate the install process so you only need to enter one command and everything will be done auto-magically!  
+
+
+   https://github.com/MariusQuabeck/magic-device-tool
+
+
+   You will need:
+
+   Ubuntu 16.04 and above
+
+   A device from the supported list
+
+   USB cable for your device
+
+   Internet connection
+
+
+
+## 5.6 I've heard something about ADB, what is it and why do I need it?
+
+In simple terms, adb is a way for your desktop computer and device to communitcate with each other through a USB cable. It is a tool that comes with android-tools-adb and android-tools-fastboot which is used by magic-device-tool to install Ubuntu Touch on a core device.              
+
+
+## 5.7 I've heard about a CPT installer, what is it?
+
+It is an older installer that was a temporarly solution when UBports started, and is now being phased out and will be replaced by the UBports-Installer.
+
+
+## 5.8 Will you port to my device?
+
+## 5.9 How do I install Ubuntu Touch on my laptop/desktop?
+
+Our primary focus is on Ubuntu Touch for mobile phones and tablets at the moment. We have not yet produced an x86 build of Ubuntu Touch but compatiility will be provided later to support the converged device use case.
+
+
+## 6. Translation
+
+### 6.1 Who do I contact and where do I go if I am interested in helping in the area of languages and translation?
+
+Please joing our UBlangs telegram group to find out more.
+
+### 6.2 What is UBlangs and who is in charge of naming?
+
+
+
+## 7. Application Development
+
+### 7.1 Where can I find apps for Ubuntu Touch?
+
+   On any device running Ubuntu Touch you can check out the OpenStore app to see all the apps available in the official UBports store. To browse the collection from a desktop comptuer, please see http://open.uappexplorer.com for a current list of available apps.
+
+   In the OpenStore app. The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
+
+   There are many applications in the open store http://open.uappexplorer.com that run on Ubuntu Touch. Some popular applications include: Telegram messenger, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav.
+
+
+### 7.2 Does Ubuntu Touch support Android apps?
+
+   Although the short answer is 'no', there have been some promising experiments with Anbox (https://anbox.io/) in the past and it will be implemented, if available, at some point in the future.
+
+
+
+### 7.3 Does Ubuntu Touch support Desktop applications?
+
+   Yes-ish. We will try to improve compatibility in the future.
+
+
+### 7.4 How can I create apps using the Ubuntu SDK?
+
+   Make apps for UT?
+
+   you can use the Ubuntu IDE or use your own and use clickable
+
+
+### 7.5 Will all apps be migrated from the Canonical store to the OpenStore?
+
+    We've taken a fairly conservative stance on moving apps wholesale from the Canonical store into the OpenStore. We don't want to be stuck with a ton of apps that will never have any hope of being maintained again. Instead, we've been contacting and encouraging developers to move their apps on their own accord.
+
+
+    If you have any app that you just can't live without and the developer hasn't moved it yet, we encourage you to let them know that you love their app and want to see it continue.
+
+
+
+
+### Make apps for UT?
+
+    you can use the Ubuntu IDE or use your own and use clickable
+
+
+### Can I use the APT repositories on Ubuntu Touch and install packages?
+
+    Our goal is to provide a single platform for app developers, which will allow a single codebase to run on all Ubuntu Touch devices.
+
+
+### Where do I report bugs for apps?
+
+### Is it possible to setup Linuxbrew and install formulae?
+
+   https://docs.brew.sh/Formula-Cookbook.html#homebrew-terminology
+
+
+
+### 8. Other
+
+## 8.1 How do you "say" UBports? How do you say Ubuntu?
+
+   OK, so if you watched any of the YouTube live shows, https://ubports.com/blog/community-updates-5, then you know what this is about!
+
+   UBports is pronounced "You Be Ports" and Ubuntu is pronounced "Ooh boon too". UBports is not plural, never remove the S from the end.
+
+
+
+
+
 
 
 
