@@ -401,7 +401,7 @@ With the success of Halium, our release time frame is expected to be significant
      
 ### 4.15 Why are apps not allowed to run in the background/when the phone is locked?
 
-   This was a design decision made by the developers at Canonical. The goal was to give Ubuntu Touch the longest possible battery life, sacrificing a bit of usability for it. For some apps there exists a special rule called lifecycle exception, and they are allowed to work in the background. For example the music player works with this exception. UBports is working on a concept that will relax these strict rules a bit for future releases.
+This was a design decision made by the developers at Canonical. The goal was to give Ubuntu Touch the longest possible battery life, sacrificing a bit of usability for it. For some apps there exists a special rule called lifecycle exception, and they are allowed to work in the background. For example the music player works with this exception. UBports is working on a concept that will relax these strict rules a bit for future releases.
 
 
 ### 4.16 How can I use an SD cards for extra storage?
@@ -411,18 +411,18 @@ With the success of Halium, our release time frame is expected to be significant
 
 ### 4.17 Have you considered a hotfix release to fix (issue x)?
 
-   Yes, we have considered it. We have decided that we will not offer hotfix releases unless an issue is both a regression and critically damages use of the phone. For example, if the radio on every Nexus 5 broke with a stable update, we would release a hotfix.
+Yes, we have considered it. We have decided that we will not offer hotfix releases unless an issue is both a regression and critically damages use of the phone. For example, if the radio on every Nexus 5 broke with a stable update, we would release a hotfix.
 
 
-   Other than that, we want to stick to our 6-8 week schedule of OTAs.
+Other than that, we want to stick to our 6-8 week schedule of OTAs.
 
 
 ### 4.18 What is Ubuntu for Android and how does it work with Ubuntu Touch?
 
-   Ubuntu Touch is the operating system that runs on the bare metal, so to speak, of the phone and is developed and maintained by UBports. Our software is designed to completely wipe off android, except for the bits to control camera, modem, gps, etc, and install a totally new and advaced OS.
+Ubuntu Touch is the operating system that runs on the bare metal, so to speak, of the phone and is developed and maintained by UBports. Our software is designed to completely wipe off android, except for the bits to control camera, modem, gps, etc, and install a totally new and advaced OS.
 
 
-   Ubuntu for Android is an app created by Canonical for Android devices. The two projects are not related.
+Ubuntu for Android is an app created by Canonical for Android devices. The two projects are not related.
 
 
 ### 4.19 Will the ARMv6 architecture be supported?
@@ -434,10 +434,10 @@ With the success of Halium, our release time frame is expected to be significant
 
 ### 5.1 Where can I chat about and possibly getting help installing Ubuntu Touch?
 
-   We invite you to join our "Newcomers Room' where all of the friendly UBports Welcoming Team are ready to help. This is a special area to not only help with installation questions, but also to introduce yourself and get to know some other community members outside our main Supergroup. We understand that with 1000 members strong, you may not feel comfortable jumping right in, so we created a side area for introductions. If you would like to join the Ubuntu Touch community this is a great place to start.
+We invite you to join our "Newcomers Room' where all of the friendly UBports Welcoming Team are ready to help. This is a special area to not only help with installation questions, but also to introduce yourself and get to know some other community members outside our main Supergroup. We understand that with 1000 members strong, you may not feel comfortable jumping right in, so we created a side area for introductions. If you would like to join the Ubuntu Touch community this is a great place to start.
 
 
-   The UBports Welcoming Team is an excited group of volunteers from all areas of UBports. Join the group to find out more.
+The UBports Welcoming Team is an excited group of volunteers from all areas of UBports. Join the group to find out more.
     
 https://ubports.com/page/telegram-welcome
 
@@ -447,17 +447,17 @@ https://ubports.com/page/telegram-welcome
    Answer...mail it to one of the developers... muahahahaha :)
    (Isn't this what the get-ubuntu-touch page is for?)
 
-   Well that depends on whether you have one of our supported core devices. If you hae a core device, please check out our documentation at docs.ubports.com
+Well that depends on whether you have one of our supported core devices. If you hae a core device, please check out our documentation at docs.ubports.com
 
 ## 5.3 Will you port to my device, which is not currently in the core devices or legacy devices list?
 
-   Due to limited time and resources, we are not porting to new devices until the 16.04 rebase is finished.
+Due to limited time and resources, we are not porting to new devices until the 16.04 rebase is finished.
 
 
-   You can see a list of devices where ports are in the works at https://ubports.com/page/devices — click on any of the links to find out more about the state of the images in question.
+You can see a list of devices where ports are in the works at https://ubports.com/page/devices — click on any of the links to find out more about the state of the images in question.
 
 
-   If you should want to get involved in porting, this guide (https://wiki.ubports.com/wiki/UBports-Development-Information) might be of interest.
+If you should want to get involved in porting, this guide (https://wiki.ubports.com/wiki/UBports-Development-Information) might be of interest.
 
 
 ## 5.4 How does the Ubuntu Installer work?
@@ -524,16 +524,16 @@ Please joing our UBlangs telegram group to find out more.
 
 ### 7.1 Where can I find apps for Ubuntu Touch?
 
-   On any device running Ubuntu Touch you can check out the OpenStore app to see all the apps available in the official UBports store. To browse the collection from a desktop comptuer, please see http://open.uappexplorer.com for a current list of available apps.
+On any device running Ubuntu Touch you can check out the OpenStore app to see all the apps available in the official UBports store. To browse the collection from a desktop comptuer, please see http://open.uappexplorer.com for a current list of available apps.
 
-   In the OpenStore app. The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
+In the OpenStore app. The Ubuntu Store will be closing its doors at the end of 2017 and we will be working with developers to help migrate their apps over to the OpenStore.
 
-   There are many applications in the open store http://open.uappexplorer.com that run on Ubuntu Touch. Some popular applications include: Telegram messenger, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav.
+There are many applications in the open store http://open.uappexplorer.com that run on Ubuntu Touch. Some popular applications include: Telegram messenger, Podbird (audio shows), Dekko2 (email), Instagraph (instagram) and uNav.
 
 
 ### 7.2 Does Ubuntu Touch support Android apps?
 
-   Although the short answer is 'no', there have been some promising experiments with Anbox (https://anbox.io/) in the past and it will be implemented, if available, at some point in the future.
+Although the short answer is 'no', there have been some promising experiments with Anbox (https://anbox.io/) in the past and it will be implemented, if available, at some point in the future.
 
 
 
@@ -551,22 +551,22 @@ Please joing our UBlangs telegram group to find out more.
 
 ### 7.5 Will all apps be migrated from the Canonical store to the OpenStore?
 
-    We've taken a fairly conservative stance on moving apps wholesale from the Canonical store into the OpenStore. We don't want to be stuck with a ton of apps that will never have any hope of being maintained again. Instead, we've been contacting and encouraging developers to move their apps on their own accord.
+We've taken a fairly conservative stance on moving apps wholesale from the Canonical store into the OpenStore. We don't want to be stuck with a ton of apps that will never have any hope of being maintained again. Instead, we've been contacting and encouraging developers to move their apps on their own accord.
 
 
-    If you have any app that you just can't live without and the developer hasn't moved it yet, we encourage you to let them know that you love their app and want to see it continue.
+If you have any app that you just can't live without and the developer hasn't moved it yet, we encourage you to let them know that you love their app and want to see it continue.
 
 
 
 
 ### Make apps for UT?
 
-    you can use the Ubuntu IDE or use your own and use clickable
+you can use the Ubuntu IDE or use your own and use clickable
 
 
 ### Can I use the APT repositories on Ubuntu Touch and install packages?
 
-    Our goal is to provide a single platform for app developers, which will allow a single codebase to run on all Ubuntu Touch devices.
+Our goal is to provide a single platform for app developers, which will allow a single codebase to run on all Ubuntu Touch devices.
 
 
 ### Where do I report bugs for apps?
@@ -586,7 +586,75 @@ Please joing our UBlangs telegram group to find out more.
    UBports is pronounced "You Be Ports" and Ubuntu is pronounced "Ooh boon too". UBports is not plural, never remove the S from the end.
 
 
+###POSSIBLE FAQ IDEAS
 
+##What is Project Sudoku?
+
+Project Sudoku is our latest plan to fast-track the development of an image based on Ubuntu 16.04. It involves taking a majority of the Unity 8 / Mir source that is running right now on 15.04 and rebuilding it on 16.04. Easy, right?
+
+Actually, it seems like this will be much easier than continuing all of the conversion work from the final Unity 8 sources back to phones. At the end of Unity's life inside Canonical, the convergence vision was (mostly) dropped in the hope of bringing it to market faster. This included some work to convert Upstart scripts to SystemD units, rewriting slow QML modules in C++, and some other extremely thoughtful and useful additions. Unfortunately, none of this work was completed and we're left with something that's... half baked. Marius sent me a picture of two people walking up some stairs and then falling back down to illustrate the difficulty of making Xenial work.
+
+By going back to 15.04 sources, we forego all of the improvements, but also all of the hardship of completing these conversions. This is definitely a huge compromise, but one that we hope can get ourselves on a more stable, updated, and secure base OS.
+
+Sudoku refers to the idea that we need to take parts and ideas from everywhere we can to complete the puzzle that is Ubuntu Touch. It's also a prime example of why you don't let developers name things.
+
+
+
+## How can I backup my phone?
+
+   SSH and/or MDT?
+
+
+
+## Do you have the official Ubuntu Touch documentation? (needs more information)
+
+   Yes, it's all on GitHub. Assuming you mean the documentation on docs.ubuntu.com.
+
+
+## Will you relax app confinement?
+
+    App developers would love it if we did, but the security minded among us take pause at the idea of completely relaxing confinement. We'll have to strike a balance between the two.
+
+
+## What will you do with scopes?
+
+    This is a meritocratic community. If the people contributing (especially app developers) want scopes to stay in the OS and develop compelling options for the platform, they stay. As it is, though, there is a very interesting (working) home screen concept that takes the best of the aggregation scopes like Today and puts them right in front of you. Since it's working, it has a lot of weight in our decision making process.
+
+    If you have an idea for an overhaul to Scopes and can get the support from others to get it developed, we'd love to see it.
+
+
+## Halium
+
+    (Developer content ahead!) As for the Halium news for this week, Marius has managed to get 15.04 images somewhat working on Halium. The largest issue is that Mir doesn't run, which requires some patching to libhybris. Someone in the community has compared the differences between upstream libhybris and Canonical's fork to provide a patch that should add the required Mir support. Another issue that Halium is running into is not working correctly on devices that come with Qualcomm's modified version of Android, known officially as "Android for MSM" and unofficially as CAF. Running Halium on these devices requires a rebuild of libhybris, as well as any OS components that directly interface with it. In our case, that's Mir
+
+
+
+Who do you have in mind when delevoping Ubuntu Touch?
+
+
+What will this FAQ tell me? / What do I do if it doesn't tell me what I want?
+WHAT IS A FAQ?!
+
+So, is this like a Linux phone?
+              
+What works on ______ device? (I think we need video demos of each device, updated every OTA if not sooner) — i.e. This is what you're getting yourself into (enter youtube... some wanabe star usually does this for us — hopefully someone IN the procject rather than)
+
+Why is UBports using Telegram when other messaging apps are more secure?
+              
+Is multi-rom supported? (Yes, it's answered but I think some people ask this question directly... so maybe dedicated question...)
+
+
+
+Where can I send my feedback on 
+
+   please see our Contact page at https://ubports.com/page/contactus
+
+    -  
+
+
+Will the final product allow me to us "sudo" and "apt-get" just like a desktop computer?
+
+    I'm not sure we want to get this technical with the faqs.  Focus on new users? Terminal commands are generally not for "normal" people. 
 
 
 
