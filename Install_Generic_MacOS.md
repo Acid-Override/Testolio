@@ -8,8 +8,10 @@
 
 ### 1.0 Install necessary tools
 
-  Android Platform_Tools and the UBports_Installer.dmg
+   Android Platform_Tools and the UBports_Installer.dmg
  
 ### 2.0 Launch UBports_installer.dmg with sudo privs
+
+sudo /Applications/ubports-installer.app/Contents/MacOS/ubports-installer
 
 ### 3.0 Win!
