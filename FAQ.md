@@ -602,30 +602,30 @@ Sudoku refers to the idea that we need to take parts and ideas from everywhere w
 
 ## How can I backup my phone?
 
-   SSH and/or MDT?
+  SSH and/or MDT?
 
 
 
 ## Do you have the official Ubuntu Touch documentation? (needs more information)
 
-   Yes, it's all on GitHub. Assuming you mean the documentation on docs.ubuntu.com.
+Yes, it's all on GitHub. Assuming you mean the documentation on docs.ubuntu.com.
 
 
 ## Will you relax app confinement?
 
-    App developers would love it if we did, but the security minded among us take pause at the idea of completely relaxing confinement. We'll have to strike a balance between the two.
+App developers would love it if we did, but the security minded among us take pause at the idea of completely relaxing confinement. We'll have to strike a balance between the two.
 
 
 ## What will you do with scopes?
 
-    This is a meritocratic community. If the people contributing (especially app developers) want scopes to stay in the OS and develop compelling options for the platform, they stay. As it is, though, there is a very interesting (working) home screen concept that takes the best of the aggregation scopes like Today and puts them right in front of you. Since it's working, it has a lot of weight in our decision making process.
+This is a meritocratic community. If the people contributing (especially app developers) want scopes to stay in the OS and develop compelling options for the platform, they stay. As it is, though, there is a very interesting (working) home screen concept that takes the best of the aggregation scopes like Today and puts them right in front of you. Since it's working, it has a lot of weight in our decision making process.
 
-    If you have an idea for an overhaul to Scopes and can get the support from others to get it developed, we'd love to see it.
+If you have an idea for an overhaul to Scopes and can get the support from others to get it developed, we'd love to see it.
 
 
 ## Halium
 
-    (Developer content ahead!) As for the Halium news for this week, Marius has managed to get 15.04 images somewhat working on Halium. The largest issue is that Mir doesn't run, which requires some patching to libhybris. Someone in the community has compared the differences between upstream libhybris and Canonical's fork to provide a patch that should add the required Mir support. Another issue that Halium is running into is not working correctly on devices that come with Qualcomm's modified version of Android, known officially as "Android for MSM" and unofficially as CAF. Running Halium on these devices requires a rebuild of libhybris, as well as any OS components that directly interface with it. In our case, that's Mir
+(Developer content ahead!) As for the Halium news for this week, Marius has managed to get 15.04 images somewhat working on Halium. The largest issue is that Mir doesn't run, which requires some patching to libhybris. Someone in the community has compared the differences between upstream libhybris and Canonical's fork to provide a patch that should add the required Mir support. Another issue that Halium is running into is not working correctly on devices that come with Qualcomm's modified version of Android, known officially as "Android for MSM" and unofficially as CAF. Running Halium on these devices requires a rebuild of libhybris, as well as any OS components that directly interface with it. In our case, that's Mir
 
 
 
