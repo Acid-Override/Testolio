@@ -1,22 +1,24 @@
 ### UBports FAQ documentation for https://ubports.com/page/frequently-asked-questions
 
+As the lazy brown fox jumped over the cow.
+
 ```
 /
 |- FAQ
 |   |- Introduction
 |   |   |-    1.1 What is Ubuntu Touch?
 |   |   |-    1.2 Who is developing Ubuntu Touch?
-|   |   |-    1.3 What sets Ubuntu Touch apart from Apple and Android?  
+|   |   |-    1.3 What sets Ubuntu Touch apart from Apple and Android?
 |   |   |-    1.4 What is UBports?
 |   |   |-    1.5 What is the UBports Foundation?
-|   |    
+|   | 
 |   |- 16.04  ... Here we come!! 
 |   |   |-    2.1 Why won't all Ubuntu Touch Canonical devices get an upgrade to the new 16.04 base?
 |   |   |-    2.2 Why not skip 16.04 and go directly to 18.04? 
 |   |   |-    2.3 What is the most recent version?
 |   |   |-    2.4 Which devices will be supported by the 16.04 branch?
 |   |   |-    2.5 When will I be able to re-flash my phone with new 16.04 image?
-|   |    
+|   | 
 |   |- General Questions
 |   |   |-    3.1 Hello there. I am new to Ubuntu Touch and UBports and just looking around, trying to understand the system and how I might be able to help...
 |   |   |-    3.2 Does Ubuntu Touch work in my country?
@@ -30,7 +32,7 @@
 |   |   |-    3.10 With all this talk of Librem 5, Purism's new phone, can I install Ubuntu Touch on it?
 |   |   |-    3.11 Which applications run on Ubuntu Touch?
 |   |   |-    3.12 Where can I find apps for Ubuntu Touch?
-|   |    
+|   | 
 |   |- OS Development
 |   |   |-    4.1 Where do I report Ubuntu Touch bugs?
 |   |   |-    4.2 By far the thing that excites me the most about Ubuntu Touch is the prospect of Desktop mode, could you explain it in a bit more detail?
@@ -51,7 +53,7 @@
 |   |   |-    4.17 Have you considered a hotfix release to fix (issue x)?
 |   |   |-    4.18 What is Ubuntu for Android and how does it work with Ubuntu Touch?
 |   |   |-    4.19 Will the ARMv6 architecture be supported?
-|   |    
+|   | 
 |   |- Installation & Porting
 |   |   |-    5.1 Where can I chat about and possibly getting help installing Ubuntu Touch?
 |   |   |-    5.2 How do I install Ubuntu Touch on my device? 
@@ -81,14 +83,14 @@
 |   |   |-    [***] PERHAPS A QUESTION ABOUT TELEGRAM, MATRIX, ETC?      
 |   |    
 |   |- Other
-|   |   |-    How do you pronounce UBports? How do you say Ubuntu?    
+|   |   |-    How do you pronounce UBports? How do you say Ubuntu?
 \
 ```
     
 ## 1.0 Introduction
 ### 1.1 What is Ubuntu Touch? (What is it to someone who doesn't know what Ubuntu is?)
 
-Ubuntu Touch is the touch-friendly mobile version of the popular Ubuntu operating system. Originally designed and developed by Canonical Ltd, the project now resides with the UBports Foundation.  
+Ubuntu Touch is the touch-friendly mobile version of the popular Ubuntu operating system. Originally designed and developed by Canonical Ltd, the project now resides with the UBports Foundation.
 
 The Ubuntu operating system, upon which Ubuntu Touch is based, is one of the most popular Linux distributions in the world. UBports is the new home for Ubuntu Touch and will continue with Canonical's original mission of Convergence — the bold idea of bringing mobile computing to the desktop and desktop computing to mobile which will now be developed by the UBports Foundation.
 
