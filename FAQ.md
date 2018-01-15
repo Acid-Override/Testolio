@@ -1,6 +1,5 @@
 ### UBports FAQ documentation for https://ubports.com/page/frequently-asked-questions
 
-As the lazy brown fox jumped over the cow.
 
 ```
 /
